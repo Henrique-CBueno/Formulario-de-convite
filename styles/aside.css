@@ -3,9 +3,6 @@ aside{
     background: url(/assets/images/Background.png) no-repeat;
     background-size: cover;
 
-    width: 32.79%;
-    height: 100vh;
-
     .aside-container{
         padding: 2rem;
 

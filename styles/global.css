@@ -62,3 +62,63 @@
 .flex{
     display: flex;
 }
+
+#app{
+    display: grid;
+    grid-template-columns: 32.79% 67.21%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+label{
+    font: var(--body-sm);
+    color: var(--text-body);
+}
+
+input{
+    background-color: var(--input-base);
+    border: 1px solid var(--input-stroke);
+    border-radius: .5rem;
+    height: 3rem;
+    padding-inline: 1rem;
+    font: var(--body-md);
+    color: var(--text-heading);
+
+    &::placeholder{
+        color: var(--input-placeholder);
+    }
+
+    &:active, &:focus, &:hover{
+        outline: none;
+        border: 1px var(--brand-light) solid;
+    }
+
+}
+input[type="date"]::placeholder{
+    color: var(--input-placeholder);
+}
+
+textarea{
+
+    resize: none;
+    background-color: var(--input-base);
+    border: 1px solid var(--input-stroke);
+    border-radius: .5rem;
+    padding: 1rem;
+    font: var(--body-md);
+    color: var(--text-heading);
+
+    &::placeholder{
+        color: var(--input-placeholder);
+    }
+
+    &:active, &:focus, &:hover{
+        outline: none;
+        border: 1px var(--brand-light) solid;
+    }
+
+}
+
+
+
+

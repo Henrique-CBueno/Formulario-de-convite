@@ -1,0 +1,21 @@
+.form-wrapper{
+        
+    background-color: var(--shape-body);
+        
+    padding-inline: 8.125rem;
+    padding-block: 5rem;
+
+
+
+
+
+    h1{
+        font: var(--heading-md);
+        color: var(--text-heading);
+    }
+
+}
+    
+
+    
+    
