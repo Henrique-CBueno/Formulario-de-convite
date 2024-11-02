@@ -1,65 +1,83 @@
-#about{
-    .legend{
+.form-wrapper{
+    overflow: auto;
 
-        margin-top: 2.5rem;
-    }
+    #about{
+        .legend{
 
-    .date-wrapper{
-        width: 17rem;
-        display: grid;
-        gap: .75rem;
-        width: 100%;
-    }
+            margin-top: 2.5rem;
+        }
+
+        .date-wrapper{
+            width: 17rem;
+            display: grid;
+            gap: .75rem;
+            width: 100%;
+        }
 
 
-    .link-wrapper{
-        display: grid;
-        gap: .75rem;
+        .link-wrapper{
+            display: grid;
+            gap: .75rem;
+            
+        }
+        
+        .description-wrapper{
+            width: 100%;
+            margin-top: 1rem;
+            display: grid;
+            gap: .75rem;
+
+            & input{
+                height: 8.5rem;
+            }
+        }
         
     }
-    
-    .description-wrapper{
-        width: 100%;
+
+    #personalization{
+
+        margin-top: 3rem;
+
+
+        .color-wrapper{
+
+            margin-top: 1.5rem;
+            
+        }
+
+    }
+
+
+
+
+
+
+    .two-inputs{
         margin-top: 1rem;
         display: grid;
-        gap: .75rem;
+        gap: 1rem;
+        grid-template-columns: 50% 50%;
+    }
 
-        & input{
-            height: 8.5rem;
+    .legend{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        img{
+            width: 1.5rem;
+            height: 1.5rem;
+        }
+
+        legend{
+            color: var(--text-heading);
+            font: var(--heading-sm);
         }
     }
-    
-}
 
 
-
-
-
-
-.two-inputs{
-    margin-top: 1rem;
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: 50% 50%;
-}
-
-.legend{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-
-    img{
-        width: 1.5rem;
-        height: 1.5rem;
+    fieldset{
+        border: none;
     }
 
-    legend{
-        color: var(--text-heading);
-        font: var(--heading-sm);
-    }
-}
-
-
-fieldset{
-    border: none;
 }

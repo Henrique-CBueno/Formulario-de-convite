@@ -1,0 +1,39 @@
+.color-wrapper{
+    
+    input{
+        display: none;
+    }
+}
+
+
+
+label .color{
+    width: 3rem;
+    height: 3rem;
+    border: .4375rem solid var(--shape-button);
+    border-radius: 100%;
+
+
+}
+
+.inputs-color{
+    margin-top: 1rem;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+
+
+    label:hover, :focus{
+        cursor: pointer;
+
+        .color{
+            /* border:  .4375rem solid var(--shape-hover); */
+            border: none;
+        }
+    }
+}
+
+.inputs-color input:checked + .color {
+    border: none;
+}
+
