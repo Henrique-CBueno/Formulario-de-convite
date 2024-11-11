@@ -53,8 +53,111 @@
 
         }
 
+        
+    .last{
+        display: grid;
+        grid-template-columns: 32.86% 67.14%;
+        gap: 1rem;
+
+        #style{
+            display: grid;
+            gap: .75rem;
+
+
+            .inset{
+                display: flex;
+                align-items: center;
+                gap: .75rem;
+
+
+                h3{
+                    font: var(--body-sm);
+                    color: var(--text-heading);
+                }
+
+                img:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .input-capa-pic{
+            margin-top: .75rem;
+
+            label{
+
+                all: unset;
+                display: flex;
+                align-items: center;
+                gap: .75rem;
+                position: relative;
+
+                
+                    h3{
+                        color: var(--input-placeholder);
+                        font: var(--body-md);
+                    }
+                
+                    input{
+                        all: unset;
+                        position: absolute;
+                        opacity: 0;
+                        width: 100%;
+                        height: 100%;
+                    }
+
+                    .file-button{
+                        
+                        background-color: var(--shape-button);
+                        border-radius: .5rem;
+                        display: flex;
+                        gap: .5rem;
+                        padding-inline: .75rem;
+                        padding-block: .7rem;
+
+                        h3{
+                            color: var(--text-heading);
+                            font: var(--body-sm);
+                        }
+
+                        &:hover{
+                            cursor: pointer;
+                        }
+                    }
+
+
+
+
+            }
+
+        }
+
     }
 
+    
+}
+
+#contact{
+    margin-top: 3rem;
+
+    .text-wrapper{
+        display: grid;
+        
+        
+        input{
+            
+        }
+    }
+
+    .ctn{
+        display: grid;
+        gap: .75rem;
+    }
+
+
+
+
+}
 
 
 
